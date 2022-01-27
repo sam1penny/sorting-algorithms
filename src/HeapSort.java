@@ -1,6 +1,6 @@
 public class HeapSort implements SortingAlgo {
     public static void main(String[] args) {
-        SortTesting.test(new QuickSort());
+        SortTesting.test(new HeapSort());
     }
 
     private static void FormHeap(int[] array) {
